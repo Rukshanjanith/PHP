@@ -1,0 +1,77 @@
+body{
+	margin: 0 auto;
+	background-image: url("635545885529320267-158164567.jpg");
+background-repeat:no-repeat;
+background-size: 100% 100%;	
+}
+
+.container{
+	width: 500px;
+	height: 450px;
+	text-align: center;
+	margin:0 auto;
+	background-color: rgba(44,62,80,0.7);
+	margin-top: 160px;
+}
+
+.container img{
+	width:150px;
+	height: 150px;
+	margin-top: -60px;
+}
+
+input[type="text"],input[type="password"]{
+	margin-top: 30px;
+	height: 45px;
+	width:300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color:#fff;
+	padding-left:40px;
+}
+
+.form-input::before{
+	content:"\f0f0";
+	font-family:"fontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position:absolute;
+	font-size:35px;
+	color:#2980b9;
+}
+.form-input:nth-child(2)::before{
+	content:"\f023";
+	font-family:"fontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position:absolute;
+	font-size:35px;
+	color:#2980b9;
+	
+}
+
+/* Set a style for all buttons */
+.button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.button:hover {
+  opacity: 0.8;
+}
+
+.footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color: brown;
+	color: white;
+	text-align: center;
+}
